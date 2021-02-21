@@ -1,0 +1,154 @@
+/* parts */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+article {
+  margin-bottom: 10rem;
+}
+
+section {
+  margin-bottom: 10rem;
+}
+
+.container {
+  padding: 0rem 10rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: normal;
+  color: #bf783e;
+  margin-bottom: 2rem;
+}
+
+.sub-title {
+  font-size: 3rem;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 10rem;
+}
+/* parts */
+
+/* header */
+#page-header {
+  background-color: white;
+  padding: 2rem;
+}
+
+.header-title {
+  color: #bf783e;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  color: #ffffff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0px #bf783e, -1px 1px 0px #bf783e, 1px -1px 0px #bf783e,
+    -1px -1px 0px #bf783e, 1px 0px 0px #bf783e, 0px 1px 0px #bf783e,
+    -1px 0px 0px #bf783e, 0px -1px 0px #bf783e;
+}
+/* header */
+
+/* main */
+/* main-visual */
+.main-visual {
+  background-image: url(../img/bakery-mainvisual.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-visual-logo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 0.8rem;
+  padding: 2rem;
+  font-size: 5rem;
+}
+/* main-visual */
+
+/* main-container */
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  height: 100rem;
+}
+
+.info-title {
+  color: black;
+  text-align: center;
+}
+
+.info-flexbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.info-list {
+  display: flex;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.info-item {
+  border: 0.1rem solid darkgray;
+  padding: 1rem;
+}
+/* main-container */
+
+/* main */
+
+/* footer */
+#page-footer {
+  line-height: 3rem;
+}
+
+.sns-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 15rem;
+}
+
+.sns-item > a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-list {
+  text-align: center;
+}
+
+.footer-copylight {
+  text-align: center;
+  background-color: darkgray;
+}
+/* footer */
