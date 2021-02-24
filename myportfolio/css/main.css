@@ -28,7 +28,7 @@ section {
 }
 
 .inner {
-  padding: 0 4rem;
+  padding: 2rem 4rem;
 }
 
 /* ヘッダー */
@@ -83,6 +83,11 @@ section {
   font-size: 8rem;
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 5rem;
+  }
+}
 
 /* ityped */
 .sub-title {
@@ -124,14 +129,25 @@ section {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+  .introduction-contents {
+    display: block;
+  }
+}
+
 .introduction-img {
-  background-image: url("../img/自己紹介スキー.jpg");
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
   background-position: center center;
   display: inline-block;
   border: solid 5px black;
+}
+
+@media screen and (max-width: 480px) {
+  .introduction-img {
+    width: 100%;
+  }
 }
 
 .intro-list {
@@ -146,9 +162,9 @@ section {
   margin-bottom: 0px;
 }
 
-.works-title {
+/* .works-title {
   padding-top: 5rem;
-}
+} */
 
 .works-list {
   display: flex;
