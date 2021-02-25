@@ -254,6 +254,7 @@ section {
   padding: 1rem;
 }
 
+/* ライブラリ */
 /* ボタン */
 
 .back-to-top {
@@ -278,4 +279,9 @@ section {
 /* マウスを乗せた時に透明度を変える */
 .back-to-top:hover {
   opacity: 1;
+}
+
+/* animate.css */
+.animate__fadeInUp {
+  --animate-duration: 2s;
 }
