@@ -124,20 +124,25 @@ section {
 /* ityped */
 
 /* About */
-.introduction-contents {
+#about {
+  height: 100rem;
+}
+
+.about-contents {
   display: flex;
   justify-content: space-around;
 }
 
 @media screen and (max-width: 480px) {
-  .introduction-contents {
+  .about-contents {
     display: block;
   }
 }
 
-.introduction-img {
+.about-img {
   width: 50rem;
   height: 50rem;
+  margin-right: 10rem;
   border-radius: 50%;
   background-position: center center;
   display: inline-block;
@@ -145,14 +150,20 @@ section {
 }
 
 @media screen and (max-width: 480px) {
-  .introduction-img {
+  .about-img {
     width: 100%;
   }
 }
 
-.intro-list {
-  font-size: 2rem;
-  line-height: 5;
+.about-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  margin-bottom: 5rem;
+  line-height: 2;
 }
 
 /* Works */
@@ -183,6 +194,11 @@ section {
   height: auto;
   vertical-align: middle;
   border-style: none;
+  transition: all 0.5s;
+}
+
+.works-img:hover {
+  transform: scale(1.2);
 }
 
 .works-body {
@@ -251,6 +267,29 @@ section {
 }
 
 /* ライブラリ */
+
+/* フェードイン */
+.scrollanime {
+  opacity: 0;
+} /*一瞬表示されるのを防ぐ*/
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.downup {
+  transform: translateY(100px);
+}
+
 /* ボタン */
 
 .back-to-top {
@@ -275,9 +314,4 @@ section {
 /* マウスを乗せた時に透明度を変える */
 .back-to-top:hover {
   opacity: 1;
-}
-
-/* animate.css */
-.animate__fadeInUp {
-  --animate-duration: 2s;
 }

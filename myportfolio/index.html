@@ -12,7 +12,6 @@
     <title>Takumi's portfolio</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="Libraries/animate.css-main/animate.css" />
   </head>
   <body>
     <!-- ヘッダー -->
@@ -37,27 +36,34 @@
         </section>
       </article>
       <article id="main-container">
-        <section id="introduction" class="inner">
-          <h1 class="introduction-title title animate__animated">About</h1>
-          <div class="introduction-contents contents animate__animated">
+        <!-- About -->
+        <section id="about" class="inner">
+          <h1 class="about-title title scrollanime downup">About</h1>
+          <div class="about-contents contents scrollanime downup">
             <p>
               <img
                 src="img/自己紹介スキー.jpg"
                 alt="自己紹介用の写真"
-                class="introduction-img"
+                class="about-img"
               />
             </p>
-            <ul class="intro-list">
-              <li class="intro-item">名前：三ツ矢匠</li>
-              <li class="intro-item">出身：東京都</li>
-              <li class="intro-item">学歴：亜細亜大学</li>
-              <li class="intro-item">趣味：アルペンスキー</li>
-            </ul>
+            <div class="about-flex">
+              <div class="text-container">
+                <p class="about-text">
+                  文系からWEBエンジニアを目指して修行中です！<br />WEB制作の学習を始めたきっかけは、オシャレなデザインや面白いアニメーションを見て、自分でも作ってみたいと思うようになったことでした。
+                </p>
+                <p class="about-text">
+                  趣味はアルペンスキーです。高校時代にアルペンスキーに出会い、現在まで毎年欠かさず雪山に行っています。
+                </p>
+              </div>
+            </div>
           </div>
         </section>
+
+        <!-- Works -->
         <section id="works" class="inner">
-          <h1 class="works-title title animate__animated">Works</h1>
-          <div class="works-list animate__animated">
+          <h1 class="works-title title scrollanime downup">Works</h1>
+          <div class="works-list scrollanime downup">
             <figure class="works-item">
               <a
                 href="https://shark101023.github.io/portfolio/Works/Bakery/index.html"
@@ -68,7 +74,7 @@
                   class="works-img"
               /></a>
               <figcaption class="works-body">
-                <div class="works-name">Bakery</div>
+                <div class="works-name">Bakery(架空サイト)</div>
                 <div class="works-text">HTML・CSS・JavaScript</div>
               </figcaption>
             </figure>
@@ -117,7 +123,6 @@
     <a href="#" class="back-to-top">▲</a>
 
     <script src="Libraries/jquery-3.5.1.min.js"></script>
-    <script src="Libraries/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
     <script src="Libraries/ityped-master/dist/index.js"></script>
     <script src="js/main.js"></script>
   </body>
