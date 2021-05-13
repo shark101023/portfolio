@@ -131,6 +131,9 @@ section {
 .about-contents {
   display: flex;
   justify-content: space-around;
+  background-color: #f5f5dc;
+  padding: 5rem;
+  border-radius: 5rem;
 }
 
 @media screen and (max-width: 480px) {
