@@ -23,12 +23,8 @@ a {
   letter-spacing: 0.5rem;
 }
 
-section {
-  margin-bottom: 10rem;
-}
-
 .inner {
-  padding: 2rem 4rem;
+  padding: 5rem;
 }
 
 /* ヘッダー */
@@ -73,7 +69,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("https://github.com/shark101023/portfolio/blob/master/myportfolio/img/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB.jpg?raw=true");
+  background-image: url("../img/メインビジュアル.jpg");
 }
 
 .name {
@@ -125,13 +121,16 @@ section {
 
 /* About */
 #about {
-  height: 100rem;
+  height: 150rem;
+  background-image: url(../img/メインコンテナ.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .about-contents {
   display: flex;
   justify-content: space-around;
-  background-color: #f5f5dc;
+  background-color: white;
   padding: 5rem;
   border-radius: 5rem;
 }
