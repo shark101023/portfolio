@@ -69,7 +69,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/メインビジュアル.jpg);
+  background-image: url(https://github.com/shark101023/portfolio/blob/master/myportfolio/img/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB.jpg?raw=true);
+  background-size: cover;
 }
 
 .name {
@@ -78,6 +79,7 @@ a {
   letter-spacing: 1rem;
   font-size: 8rem;
   text-align: center;
+  color: white;
 }
 @media screen and (max-width: 480px) {
   .name {
@@ -89,6 +91,7 @@ a {
 .sub-title {
   font-size: 2rem;
   text-align: center;
+  color: white;
 }
 
 .ityped-cursor {
